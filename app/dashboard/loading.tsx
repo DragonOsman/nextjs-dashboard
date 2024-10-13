@@ -1,5 +1,7 @@
+import DashboardSkeleton from "@/app/ui/skeletons";
+
 const Loading = () => {
-  return <div>Loading...</div>;
+  return <DashboardSkeleton />;
 };
 
 export default Loading;
