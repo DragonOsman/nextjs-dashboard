@@ -2,5 +2,38 @@
   "extends": [
     "next/core-web-vitals",
     "next/typescript"
+  ],
+  "rules": {
+    "yoda": "error",
+    "no-undef": "warn",
+    "space-before-function-paren": "off",
+    "quotes": [
+      "error",
+      "double",
+      {
+        "allowTemplateLiterals": true
+      }
+    ],
+    "no-unused-vars": "warn",
+    "prefer-const": "error",
+    "no-var": "error",
+    "semi": "error",
+    "@typescript-eslint/quotes": [
+      "error",
+      "double",
+      {
+        "allowTemplateLiterals": true
+      }
+    ],
+    "@typescript-eslint/semi": "error",
+    "@typescript-eslint/no-unused-vars": "warn",
+    "@typescript-eslint/comma-dangle": "error"
+  },
+  "type": "module",
+  "plugins": [
+    "react",
+    "react-hooks",
+    "jsx-a11y",
+    "next"
   ]
 }
